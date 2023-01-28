@@ -1,0 +1,30 @@
+@import "reset";
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+header {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    &-list {
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      width: 500px;
+      &-list a {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        color: #161616;
+        text-decoration: none;
+      }
+    }
+  }
+}
