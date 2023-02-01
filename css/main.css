@@ -5,30 +5,129 @@
 }
 
 body {
+  font-size: 20px;
   font-family: "DM Sans", sans-serif;
 }
 
 .container {
-  max-width: 1440px;
-  margin: auto;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
-header .navbar {
+.bg-gre {
+  background-color: #154444;
+}
+
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 20px;
 }
-header .navbar-list {
+.navbar-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   list-style: none;
   width: 500px;
 }
-header .navbar-list-list a {
+.navbar-list a {
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
-  color: #161616;
   text-decoration: none;
+  color: #000000;
+}
+
+.navbar img {
+  width: 150px;
+}
+
+.navbar .header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .header-menu img {
+  width: 25px;
+  margin: 0 10px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0;
+}
+.main-text {
+  max-width: 600px;
+}
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 68px;
+  color: #ffffff;
+}
+.main-subtitle {
+  max-width: 480px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  padding: 25px 0;
+}
+.main-btn {
+  background-color: #ffffff;
+  border: 1px;
+  padding: 15px 20px;
+}
+.main img {
+  max-width: 410px;
+  max-height: 550px;
+}
+
+.company-title {
+  text-align: center;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  color: #244d4d;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.company-img {
+  display: grid;
+  grid-template-areas: "a b c d i f";
+  margin-bottom: 50px;
+}
+.company-img__item-MS {
+  grid-area: a;
+  max-width: 67px;
+  margin: auto;
+}
+.company-img__item-air {
+  grid-area: b;
+  max-width: 125px;
+  margin: auto;
+}
+.company-img__item-uber {
+  grid-area: c;
+  max-width: 97px;
+  margin: auto;
+}
+.company-img__item-paypal {
+  grid-area: d;
+  max-width: 106px;
+  margin: auto;
+}
+.company-img__item-visa {
+  grid-area: i;
+  max-width: 89px;
+  margin: auto;
+}
+.company-img__item-stripe {
+  grid-area: f;
+  max-width: 96px;
+  margin: auto;
 }/*# sourceMappingURL=main.css.map */
