@@ -5,32 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/main.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <title>DudeShape</title>
   </head>
   <body>
     <header>
       <div class="container">
         <nav class="navbar">
-          <img src="img/logo.png" alt="" />
+          <img src="img/navbar/logo.png" alt="" />
           <ul class="navbar-list">
             <li><a href="#" class="navbar-list-Item">Home</a></li>
             <li><a href="#" class="navbar-list-Item">About</a></li>
             <li><a href="#" class="navbar-list-Item">Features</a></li>
             <li><a href="#" class="navbar-list-Item">Contact</a></li>
           </ul>
-          <div class="header-menu">
-            <img src="img/icon.png" alt="" />
-            <img src="img/burger_menu.png" alt="" />
+          <div class="header">
+          <form action="" class="header-form">
+            <input type="text" class="header-input">
+          </form>
+          <div class="header-loupe">
+            <img src="img/navbar/icon.png" alt="">
           </div>
+          <div class="header-burger">
+            <span></span>
+          </div>
+        </div>
         </nav>
+        
         <div class="bg-gre">
          <main class="main">
-          
-            <img src="img/main-logo.jpg" alt="" />
+            <img src="img/main/main-logo.jpg" alt="" />
             <div class="main-text">
               <h1 class="main-title"> We Help You Make Modern Furniture </h1>
               <p class="main-subtitle">
@@ -52,14 +58,399 @@
         <div class="company">
                <h2 class="company-title">Trusted by 20,000+ companies</h2>
                <div class="company-img">
-               <img class="company-img__item-MS" src="img/MS.png" alt="COMPANIE">
-               <img class="company-img__item-air" src="img/air.png" alt="COMPANIE">
-               <img class="company-img__item-uber" src="img/uber.png" alt="COMPANIE">
-               <img class="company-img__item-paypal" src="img/paypal.png" alt="COMPANIE">
-               <img class="company-img__item-visa" src="img/visa.png" alt="COMPANIE">
-               <img class="company-img__item-stripe" src="img/stripe.png" alt="COMPANIE">
+               <img class="company-img__item-MS" src="img/company/MS.png" alt="COMPANIE">
+               <img class="company-img__item-air" src="img/company/air.png" alt="COMPANIE">
+               <img class="company-img__item-uber" src="img/company/uber.png" alt="COMPANIE">
+               <img class="company-img__item-paypal" src="img/company/paypal.png" alt="COMPANIE">
+               <img class="company-img__item-visa" src="img/company/visa.png" alt="COMPANIE">
+               <img class="company-img__item-stripe" src="img/company/stripe.png" alt="COMPANIE">
                </div>
       </div>     
     </section>
+
+    <section>
+      <div class="container">
+            <div class="about">
+              <div class="about__image">
+                <img src="img/about/about-img.jpg" alt="" />
+              </div>
+              <div class="about-main">
+                <div class="about-main__text">
+                  <h2 class="about-main__text__title">About Us</h2>
+                  <p class="about-main__text__subtitle"
+                    >All of our furniture uses the best materials and choices
+                    for our customers.All of our furniture uses the best
+                    materials
+                  </p>
+                </div>
+                  <div class="about-main__column">
+                    <div class="about-main__column__image">
+                      <img src="img/about/shield 3.png" alt="" />
+                    </div>
+                    <div class="about-main__column__text">
+                      <h3 class="about-main__column__title">Best Quality</h3>
+                      <p class="about-main__column__subtitle"
+                        >All of our furniture uses the best materials and
+                        choices</p
+                      >
+                    </div>
+                  </div>
+                  <div class="about-main__column">
+                    <div class="about-main__column__image">
+                      <img src="img/about/guarantee 1.png" alt="" />
+                    </div>
+                    <div class="about-main__column__text">
+                      <h3 class="about-main__column__title">100% Secure</h3>
+                      <p class="about-main__column__subtitle"
+                        >All of our furniture uses the best materials and
+                        choices</p
+                      >
+                    </div>
+                  </div>
+                  <div class="about-main__column">
+                    <div class="about-main__column__image">
+                      <img src="img/about/Group 8981.png" alt="" />
+                    </div>
+                    <div class="about-main__column__text">
+                      <h3 class="about-main__column__title">Free Shpping</h3>
+                      <p class="about-main__column__subtitle"
+                        >All of our furniture uses the best materials and
+                        choices</p
+                      >
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="carousel-block">
+          <div class="carousel-text">
+            <h3 class="carousel-block__title">Our Popular Furniture</h3>
+            <p class="carousel-block__subtitle">
+              All of our furniture uses the best materials and choices for our
+              customers. All of our <br />
+              furniture uses the best materials and choices for our customers.
+            </p>
+          </div>
+          <div class="carousel-block__btn">
+            <button class="carousel-btn previous-btn">></button>
+            <button class="carousel-btn next-btn">></button>
+          </div>
+        </div>
+
+        <div class="carousel-card">
+          <div class="carousel-card__item">
+            <img src="img/carousel-card/card1.jpg" alt="" />
+            <div class="carousel-content">
+              <div class="carousel-card__title">
+                <h3 class="product-name">White Swan Chair</h3>
+                <div class="carousel-card__btns">
+                  <button class="carousel-btns like-btn">
+                    <img src="img/btn-icons/like-inactive.png" alt="" />
+                  </button>
+                  <button class="carousel-btns share-btn">
+                    <img src="img/btn-icons/share.png" alt="" />
+                  </button>
+                </div>
+              </div>
+              <div class="carousel-card__subtitle">
+                <span>$39</span>
+                <button>Buy Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-card__item">
+            <img src="img/carousel-card/card2.jpg" alt="" />
+            <div class="card-content">
+              <div class="carousel-card__title">
+                <h3 class="product-name">White Swan Chair</h3>
+                <div class="carousel-card__btns">
+                  <button class="carousel-btns like-btn">
+                    <img src="img/btn-icons/like-inactive.png" alt="" />
+                  </button>
+                  <button class="carousel-btns share-btn">
+                    <img src="img/btn-icons/share.png" alt="" />
+                  </button>
+                </div>
+              </div>
+              <div class="carousel-card__subtitle">
+                <span>$49</span>
+                <button>Buy Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-card__item">
+            <img src="img/carousel-card/card3.jpg" alt="" />
+            <div class="card-content">
+              <div class="carousel-card__title">
+                <h3 class="product-name">White Swan Chair</h3>
+                <div class="carousel-card__btns">
+                  <button class="carousel-btns like-btn">
+                    <img src="img/btn-icons/like-inactive.png" alt="" />
+                  </button>
+                  <button class="carousel-btns share-btn">
+                    <img src="img/btn-icons/share.png" alt="" />
+                  </button>
+                </div>
+              </div>
+              <div class="carousel-card__subtitle">
+                <span>$59</span>
+                <button>Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="catalog-block">
+          <h3 class="catalog-block__title">All Furniture</h3>
+          <div class="catalog-tab">
+            <a class="catalog-tab__item">Shop By Room</a>
+            <a class="catalog-tab__item">Shop By Category</a>
+            <a class="catalog-tab__item">Shop By Style</a>
+          </div>
+
+          <div class="catalog-content">
+            <div class="catalog-content__img">
+              <img
+                class="bg__img left"
+                src="img/catalog/catalog-bg.png"
+                alt=""
+              />
+
+              <img src="img/catalog/catalog-img.jpg" alt="" />
+
+              <img
+                class="bg__img right"
+                src="img/catalog/catalog-bg.png"
+                alt=""
+              />
+            </div>
+
+            <div>
+              <div class="catalog-content__tabs">
+                <div class="content__item">
+                  <div>
+                    <img
+                      class="tab-icon"
+                      src="img/catalog-tabs/LivingRoom.png"
+                      alt="Living Room"
+                    />
+                  </div>
+                  <span class="tab-title">Living Room</span>
+                </div>
+                <div class="content__item">
+                  <div>
+                    <img
+                      class="tab-icon"
+                      src="img/catalog-tabs/Kitchen.png"
+                      alt="Kitchen"
+                    />
+                  </div>
+                  <span class="tab-title">Kitchen</span>
+                </div>
+                <div class="content__item">
+                  <div>
+                    <img
+                      class="tab-icon"
+                      src="img/catalog-tabs/DiningRoom.png"
+                      alt="Dining Room"
+                    />
+                  </div>
+                  <span class="tab-title">Dining Room</span>
+                </div>
+                <div class="content__item">
+                  <div>
+                    <img
+                      class="tab-icon"
+                      src="img/catalog-tabs/office.png"
+                      alt="Office"
+                    />
+                  </div>
+                  <span class="tab-title">Office</span>
+                </div>
+                <div class="content__item">
+                  <div>
+                    <img
+                      class="tab-icon"
+                      src="img/catalog-tabs/Bedroom.png"
+                      alt="Bed Room"
+                    />
+                  </div>
+                  <span class="tab-title">Bed Room</span>
+                </div>
+                <div class="content__item">
+                  <div>
+                    <img
+                      class="tab-icon"
+                      src="img/catalog-tabs/Hallway.png"
+                      alt="Hallway"
+                    />
+                  </div>
+                  <span class="tab-title">Hallway</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="review">
+          <div class="furniture__img">
+            <img
+              class="bg__img dresser-img"
+              src="img/review/furniture.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text-block">
+            <h3 class="text-block__title">
+              Our customers are very <br />
+              important to us!
+            </h3>
+            <p class="text-block__subtitle">
+              All of our furniture uses the best materials and choices for
+              <br />
+              our customers. All of our furniture uses the best materials <br />
+              and choices for our customers.
+            </p>
+            <div class="review-block">
+              <div class="avatar">
+                <img src="img/review/avatar.png" alt="Avatar" />
+              </div>
+              <div class="review-content">
+                <div class="title">
+                  <h4 class="review-title">Curtis Calloway</h4>
+                </div>
+                <div class="rating">
+                  <img class="review-avatar" src="img/review/star.png" alt="" />
+                  <span class="review-rate">4.8</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="bg-gray">
+          <div class="form-block">
+            <h2 class="form-block__title">
+              Subscribe to get the latest news <br />
+              about us
+            </h2>
+
+            <p class="form-block__subtitle">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+              <br />
+              eiusmod tempor incididunt ut labore at dolore.
+            </p>
+            <div class="form-input">
+              <div class="form-container">
+                <img src="img/form-block/mail.png" alt="mail" class="mail" />
+                <input
+                  class="form-block__input"
+                  type="mail"
+                  placeholder="Enter your mail"
+                />
+                <button class="form-btn">Register</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="bg-green">
+        <div class="container">
+          <div class="columns">
+            <div class="first-column">
+              <div class="about__footer">
+                <h3 class="about__footer-title">DudeShape</h3>
+                <p class="about__footer-subtitle">
+                  Lorem ipsum dolor sit amet, conse <br />
+                  ctetur adipiscing elit, sed eiusmod <br />
+                  tempor incididunt ut labore.
+                </p>
+                <div class="social-media">
+                  <h3 class="social-media__title">Follow Us :</h3>
+                  <div class="social-media__icons">
+                    <img src="img/footer/soc-media/facebook.png" alt="" />
+                    <img src="img/footer/soc-media/twitter.png" alt="" />
+                    <img src="img/footer/soc-media/instagram.png" alt="" />
+                    <img src="img/footer/soc-media/youtube.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="second-column">
+              <div class="tour__footer">
+                <h3 class="footer-titles">Take a tour</h3>
+                <div class="tour__footer-items">
+                  <a href="#">Features</a>
+                  <a href="#">Pricing</a>
+                  <a href="#">Product</a>
+                  <a href="#">Support</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="third-column">
+              <div class="company__footer">
+                <h3 class="footer-titles">Our company</h3>
+                <div class="company__footer-items">
+                  <a href="#">About Us</a>
+                  <a href="#">Blog</a>
+                  <a href="#">Media</a>
+                  <a href="#">Contact Us</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="fourth-column">
+              <div class="subscribe__footer">
+                <h3 class="footer-titles">Subscribe</h3>
+                <p class="subscribe__footer-subtitle">
+                  Subscribe to get the latest <br />
+                  news from us
+                </p>
+                <div class="subscribe__footer-input">
+                  <input
+                    class="footer-input"
+                    type="text"
+                    placeholder="Email Address"
+                  />
+
+                  <a href="#"
+                    ><img
+                      class="send-btn"
+                      src="img/footer/send-btn.png"
+                      alt=""
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="line"></div>
+        <span class="copyright">Copyright @ 2021. Crafted with love.</span>
+      </div>
+    </footer>
   </body>
 </html>
